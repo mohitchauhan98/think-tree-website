@@ -1,0 +1,57 @@
+.service-header{
+    font-size: 56px;
+    font-weight: 700;
+    color:rgba(0, 47, 112, 1);
+    margin-bottom: 10px;
+}
+
+.service-handle{
+    display: flex;
+    gap: 20px;
+}
+
+.residential{
+    padding: 10px 30px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 100px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(51, 51, 51, 1);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.construction{
+    background: rgba(248, 248, 248, 1);
+    color:rgba(51, 51, 51, 1) ;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+.service-card{
+    width: 400px;
+    height: 295px;
+    border: 1px solid rgba(226, 226, 226, 1);
+    border-radius: 0 0 40px 0;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 47, 112, 1);
+}
+
+.service-card span svg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -15px;
+}
+
+.service-card p{
+    font-size: 32px;
+    font-weight: 600;
+
+}

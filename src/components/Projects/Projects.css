@@ -1,0 +1,91 @@
+.projects{
+    background: rgba(248, 248, 248, 1);
+    padding: 50px 121px;
+    overflow: hidden;
+}
+
+.heading{
+    font-size: 56px;
+    font-weight: 700;
+    color:rgba(135, 139, 141, 1);
+    margin-bottom: 10px;
+}
+
+.heading span{
+    color: rgba(0, 47, 112, 1);
+}
+
+.para{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 80%;
+}
+
+.project-wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+.project-section{
+    width: 600px;
+    height: 340px;
+    border-radius: 0 0 40px 0;
+}
+
+.project-section img{
+    width: 600px;
+    height: 340px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 0 0 40px 0;
+}
+
+.project-section-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.project-section-para span{
+    margin-left: 20px;
+}
+
+.button-wrap{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-btn{
+    border: 1px solid rgba(51, 51, 51, 1);
+    margin: 0;
+}
+
+.icons-section{
+    display: flex;
+    gap: 10px;
+}
+
+.icons-section span:nth-child(2){
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1);
+}
+.arrow-circle{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+.services{
+    margin-top: 100px;
+}

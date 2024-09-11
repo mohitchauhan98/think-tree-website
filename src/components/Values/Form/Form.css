@@ -1,0 +1,33 @@
+.form-box{
+    padding: 40px 50px;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    height: 50px;
+    border: 1px solid rgba(231, 231, 231, 1);
+    outline: none;
+}
+
+.input::placeholder{
+    padding-left: 15px;
+}
+
+.input-message{
+    height: 130px;
+}
+
+.form-btn{
+    height: 50px;
+    border: 1px solid rgba(0, 47, 112, 1);
+    background: rgba(0, 47, 112, 1);
+    color: rgba(231, 231, 231, 1);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0 0 16px 0;
+}

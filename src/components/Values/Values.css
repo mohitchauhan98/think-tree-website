@@ -1,0 +1,84 @@
+.values {
+  background: rgba(0, 47, 112, 1);
+  padding: 0 161px;
+}
+
+.core-values-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.values-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.value-card{
+    border: 1px solid rgba(226, 226, 226, 0.1);
+    width: 780px;
+    height: 280px;
+}
+
+.core-values-heading{
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(185, 185, 185, 1);
+    margin-top: 140px;
+}
+
+.core-values-heading span{
+    color: rgba(226, 226, 226, 1);
+}
+
+.card-inner{
+    padding: 40px 50px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background: rgba(2, 68, 159, 1);
+    border: 1px solid rgba(71, 148, 255, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+}
+
+.icon svg{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-inner h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: -10px;
+}
+
+.card-inner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(226, 226, 226, 1);
+    line-height: 24px;
+}
+
+.form-contact-box{
+    display: flex;
+    gap: 120px;
+}
+
+.forms{
+    width: 780px;
+    height: 500px;
+    border: 1px solid rgba(226, 226, 226, 0.1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 0 0 40px 0;
+    margin-bottom: 70px;
+}
+
+.contact{
+    margin-top: 150px;
+}

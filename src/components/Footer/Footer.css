@@ -1,0 +1,99 @@
+.footer {
+  padding: 40px 121px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  position: relative;
+}
+.footer-logo img {
+  height: 70px;
+}
+
+.footer-logo span {
+  font-size: 9px;
+  color: rgba(135, 139, 141, 1);
+  position: absolute;
+  top: 65px;
+  left: 18px;
+}
+
+.navb a {
+  font-size: 21px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+}
+
+.footer-connect{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-footer{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+
+.facebook svg{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #002F70 0%, rgba(0, 47, 112, 0) 100%);
+    color: #fff;
+}
+
+.footer-border{
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-top: 40px;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+.footer-last-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-details{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.footer-details span:nth-child(1){
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer-details span:nth-child(2){
+    font-size: 21px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}  
+
+.footer-right{
+    font-size: 18px;
+    font-weight: 400;
+}
